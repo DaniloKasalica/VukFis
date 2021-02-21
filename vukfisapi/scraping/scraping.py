@@ -34,7 +34,7 @@ def finddata(myurl):
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--no-sandbox')
   
-    driver = webdriver.Chrome(PATH)#,options=options)
+    driver = webdriver.Chrome(PATH),options=options)
     #---------------------
   
 
